@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1{
+	margin: 0;
+	text-align: center;
+}
+#next{
+	display: inline;
+	text-align: left;
+}
+header{
+	background-color: blue;
+}
+#klikmij{
+	position: absolute;
+	margin: 600px 0px 0px 1400px;
+}
+
+/*#spin {
+    margin: 20px;
+    width: 20px; 
+    height: 100px;    
+    background: yellow;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: .5ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: .5ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: .5ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-transition: rotate(3600deg);
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}*/
+#knopje{
+	position: fixed;
+	text-align: center;
+	color: white;
+	font-family: verdana;
+	font-weight: bold;
+	display: table;
+	margin: 450px 10px 10px 950px;
+	height: 50px;
+	width: 200px;
+	background-color: red;
+}
+#knopje:hover{
+	color: blue;
+	cursor: pointer;
+}

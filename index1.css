@@ -1,0 +1,45 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(background2.jpg);
+}
+header{
+	padding-top: 20px;
+}
+h1{
+	margin: 0;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+button{
+	position: absolute;
+	margin-top: 100px;
+	height: 30px;
+	width: 70px;
+	border-radius: 5px 5px 5px 5px;
+}
+#one{
+	top: 100px;
+}
+#two{
+	right: 100px;
+	top: 400px;
+}
+#three{
+	bottom: 100px;
+}
+#four{
+	left: 100px;
+	top: 400px;
+}
+#start{
+	top: 400px;
+	width: 120px;
+}
