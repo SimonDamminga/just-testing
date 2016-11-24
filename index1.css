@@ -2,6 +2,15 @@ body{
 	padding: 0;
 	margin: 0;
 	background-image: url(background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#ondertitel{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+	font-family: verdana;
 }
 header{
 	padding-top: 20px;
@@ -24,6 +33,19 @@ button{
 	height: 30px;
 	width: 70px;
 	border-radius: 5px 5px 5px 5px;
+}
+#oudio{
+	position: absolute;
+	top: 900px;
+	left: 800px;
+}
+#random{
+	left: 500px;
+	top: 600px;
+	opacity: 0;
+}
+#random:hover{
+	cursor: pointer
 }
 #one{
 	top: 100px;
